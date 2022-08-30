@@ -26,6 +26,7 @@ Each line of this file after the header row represents one movie, and has the fo
 movieId: Unique id for each movie
 title: Name of movies followed by their year of release
 genres: categories that a movie might fall into separated by |
+
 2.```Links.csv```
 The file `links.csv` contains indentifiers that can be used to link this data to other data sources like IMDb. Each line of this file after the header row represents one imdb link, and has the following columns:
 
@@ -39,6 +40,7 @@ The file `links.csv` contains indentifiers that can be used to link this data to
 - movieId: Unique id for each movie
 - tag: User-generated metadata about the movie in forms of short meaningful phrases
 - timestamp: Time when tag was provided by user
+
 4.```Ratings.csv```
 Each line of this file after the header row represents one rating, and has the following columns:
 - userId: Unique id for each user
